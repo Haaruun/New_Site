@@ -331,6 +331,28 @@ $(window).scroll(function(){
 
 
 //---------------
+
+
+$(function(){
+var modal = document.getElementById('dialog');
+
+$('.the_video').click(function(){
+    $('dialog').addClass('see');
+
+});
+
+
+ 
+    
+$('.modalClose').click(function(){
+    $('dialog').removeClass('see'); 
+});
+
+});
+
+
+
+
 $(function(){
 var modal = document.getElementById('dialog');
 
@@ -349,6 +371,7 @@ $('.modalClose').click(function(){
 });
 
 });
+
 
 //---------------
 $(function(){
@@ -371,6 +394,9 @@ $('img').hover(function(){
 });
 
 });
+
+
+
 
 //---------------
 

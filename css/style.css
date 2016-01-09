@@ -68,6 +68,14 @@ main {
     top: 150px;
     cursor: pointer; }
 
+.time{
+  font-size: 16px;
+}
+
+.skills{
+  font-size: 16px;
+}
+
 .con {
   float: left;
   text-align: center;

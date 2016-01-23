@@ -481,7 +481,6 @@ fullScreen.addEventListener('click', function(){
     });
       
       $('.hamburger').click(function(){
-      $('.hamburger').toggleClass('ham_slide');
       $('.head_three').toggleClass('headee_slide');
       
     });

@@ -23,36 +23,12 @@ $(document).ready(function() {
     // reshuffle grid
     $grid.shuffle('shuffle', groupName );
 });
+
+
 setTimeout(function(){
-   $('.wrap').fadeOut('fast');
-   $('.social-share-button').addClass('show_social');
-  }, 9000);
-
-var tmax_opts = {
-  delay: 0.5,
-  repeat: -1,
-  repeatDelay: 0.5,
-  yoyo: true
-};
-
-var tmax_tl           = new TimelineMax(tmax_opts),
-    polylion_shapes   = $('svg.polylion > g polygon'),
-    polylion_stagger  = 0.00475,
-    polylion_duration = 1.5;
-
-var polylion_staggerFrom = {
-  scale: 0,
-  opacity: 0,
-  transformOrigin: 'center center',
-};
-
-var polylion_staggerTo = {
-  opacity: 1,
-  scale: 1,
-  ease: Elastic.easeInOut
-};
-
-tmax_tl.staggerFromTo(polylion_shapes, polylion_duration, polylion_staggerFrom, polylion_staggerTo, polylion_stagger, 0);
+  $('body').fadeIn('slow')
+           .css('background-color', '#e3e3e3'); 
+}, 1750);
 
 
 
@@ -333,66 +309,116 @@ $(window).scroll(function(){
 //---------------
 
 
-$(function(){
-var modal = document.getElementById('dialog');
+// $(function(){
+// var modal = document.getElementById('dialog');
 
-$('.the_video').click(function(){
-    $('dialog').addClass('see');
+// $('.the_video').click(function(){
+//     $('dialog').addClass('see');
 
-});
-
-
- 
-    
-$('.modalClose').click(function(){
-    $('dialog').removeClass('see'); 
-});
-
-});
-
-
-
-
-$(function(){
-var modal = document.getElementById('dialog');
-
-$('.the_video').click(function(){
-    modal.showModal();
-    $('dialog').addClass('see');
-
-});
+// });
 
 
  
     
-$('.modalClose').click(function(){
-	modal.close();
-    $('dialog').removeClass('see'); 
-});
+// $('.modalClose').click(function(){
+//     $('dialog').removeClass('see'); 
+// });
 
-});
+// });
 
+
+
+
+// $(function(){
+// var modal = document.getElementById('dialog');
+
+// $('.the_video').click(function(){
+//     modal.showModal();
+//     $('dialog').addClass('see');
+
+// });
+
+
+ 
+    
+// $('.modalClose').click(function(){
+// 	modal.close();
+//     $('dialog').removeClass('see'); 
+// });
+
+// });
+
+
+//---------------
+// $(function(){
+// 	$('.project_one').click(function(){
+// 		$('.project_one_slide').toggleClass('slide_project');
+// 		$('.back_drop').css('display', 'block');
+// 		$('.date').toggleClass('date_add');
+// 		$('.close_pro').toggleClass('close_slide');	
+// 	});
+
+// 		$('.project_two').click(function(){
+// 		$('.project_two_slide').toggleClass('slide_project');
+// 		$('.back_drop').css('display', 'block');
+// 		$('.date').toggleClass('date_add_two');
+// 	});
+// 			$('.project_three').click(function(){
+// 		$('.project_three_slide').toggleClass('slide_project');
+// 		$('.back_drop').css('display', 'block');
+// 		$('.date').toggleClass('date_add_three');
+// 	});
+
+// 				$('.project_four').click(function(){
+// 		$('.project_four_slide').toggleClass('slide_project');
+// 		$('.back_drop').css('display', 'block');
+// 		$('.date').toggleClass('date_add_four');
+// 	});
+// 					$('.project_five').click(function(){
+// 		$('.project_five_slide').toggleClass('slide_project');
+// 		$('.back_drop').css('display', 'block');
+// 		$('.date').toggleClass('date_add_five');
+// 	});
+
+// 						$('.project_six').click(function(){
+// 		$('.project_six_slide').toggleClass('slide_project');
+// 		$('.back_drop').css('display', 'block');
+// 		$('.date').toggleClass('date_add_six');
+// 	});
+
+// $('.back_drop').click(function(){
+// 		$('.project_one_slide').removeClass('slide_project');
+// 		$('.project_two_slide').removeClass('slide_project');
+// 		$('.project_three_slide').removeClass('slide_project');
+// 		$('.project_four_slide').removeClass('slide_project');
+// 		$('.project_five_slide').removeClass('slide_project');
+// 		$('.project_six_slide').removeClass('slide_project');
+
+// 			$('.back_drop').css('display', 'none');
+
+// 	});
+
+// $('.close_pro').click(function(){
+// 		$('.project_one_slide').removeClass('slide_project');
+// 		$('.project_two_slide').removeClass('slide_project');
+// 		$('.project_three_slide').removeClass('slide_project');
+// 		$('.project_four_slide').removeClass('slide_project');
+// 		$('.project_five_slide').removeClass('slide_project');
+// 		$('.project_six_slide').removeClass('slide_project');
+
+// 			$('.back_drop').css('display', 'none');
+
+// 	});
+// });
 
 //---------------
 $(function(){
 	
-$('img').hover(function(){
-        // Hover over code
-        $('<p class="tooltip"></p>')
-        .text($(this).attr('alt'))
-        .appendTo('body')
-        .fadeIn('slow');
-}, function() {
-        // Hover out code
+    $('.hamburger').click(function(){
+      $('.head_three').toggleClass('headee_slide');
       
-        $('.tooltip').fadeOut('fast');
-}).mousemove(function(e) {
-        var mousex = e.pageX + -50; //Get X coordinates
-        var mousey = e.pageY + -60; //Get Y coordinates
-        $('.tooltip')
-        .css({ top: mousey, left: mousex })
-});
-
+    });
+   
 });
 
 
@@ -443,22 +469,21 @@ muteBtn.addEventListener('click', function(){
     
     
     
-var fullScreen = document.getElementById('fullscreen');
-fullScreen.addEventListener('click', function(){
-	if(Video.requestFullscreen){
-		Video.requestFullscreen();
-        $('main').addClass('full');
-         $('.con').addClass('maincon');
-	}else if (Video.mozRequestFullScreen) {
-    Video.mozRequestFullScreen(); // Firefox
-        $('main').addClass('full');
-         $('.con').addClass('maincon');
-  } else if (Video.webkitRequestFullscreen) {
-    Video.webkitRequestFullscreen(); // Chrome and Safari
-      $('main').addClass('full');
-       $('.con').addClass('maincon');
-  }
-});
+// var fullScreen = document.getElementById('fullscreen');
+// fullScreen.addEventListener('click', function(){
+// 	if(Video.requestFullscreen){
+// 		Video.requestFullscreen();
+//         $('main').addClass('full');
+//          $('.con').addClass('maincon');
+// 	}else if (Video.mozRequestFullScreen) {
+//     Video.mozRequestFullScreen(); // Firefox
+//         $('main').addClass('full');
+//          $('.con').addClass('maincon');
+//   } else if (Video.webkitRequestFullscreen) {
+//     Video.webkitRequestFullscreen(); // Chrome and Safari
+//        $('.con').addClass('maincon');
+//   }
+// });
     
     
     
@@ -480,11 +505,7 @@ fullScreen.addEventListener('click', function(){
         Video.currentTime = videoTime;
     });
       
-      $('.hamburger').click(function(){
-      $('.head_three').toggleClass('headee_slide');
-      
-    });
-   
+  
 
      
 

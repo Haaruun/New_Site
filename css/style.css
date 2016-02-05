@@ -902,7 +902,7 @@ form {
 .tooltip{
     display:none;
     position:absolute;
-    background-color: $darkblue;
+    background-color: #1e88e5;
     border-radius:5px;
     padding: 7.5px;
     color: white;

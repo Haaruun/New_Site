@@ -897,15 +897,20 @@ form {
       -webkit-filter: grayscale(0%);
       filter: grayscale(0%); }
 
-.tooltip {
-  display: none;
-  position: absolute;
-  background-color: #161616;
-  border-radius: 5px;
-  padding: 10px;
-  color: #fff;
-  overflow: hidden;
-  text-align: center; }
+
+
+.tooltip{
+    display:none;
+    position:absolute;
+    background-color: $darkblue;
+    border-radius:5px;
+    padding: 7.5px;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px !important;
+}
+
 
 
 

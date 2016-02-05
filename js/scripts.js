@@ -2,6 +2,24 @@
 
 //---------------
 $(document).ready(function() {
+	
+	
+    $('.com img').hover(function(){
+        // Hover over code
+        $('<p class="tooltip"></p>')
+        .text($(this).attr('alt'))
+        .appendTo('body')
+        .fadeIn('fast');
+}, function() {
+        // Hover out code
+      
+        $('.tooltip').remove();
+}).mousemove(function(e) {
+        var mousex = e.pageX + 40; //Get X coordinates
+        var mousey = e.pageY + 20; //Get Y coordinates
+        $('.tooltip')
+        .css({ top: mousey, left: mousex })
+});
      
     /* initialize shuffle plugin */
     var $grid = $('#grid');

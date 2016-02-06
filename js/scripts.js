@@ -162,7 +162,7 @@ $('a[href*=#]:not([href=#])').click(function() {
 
 
 var nav = $('header');
-var navHeight = nav.outerHeight() - 150;
+var navHeight = nav.outerHeight() + 10;
 
 $(window).scroll(function(){
     var scroll = $(this).scrollTop();

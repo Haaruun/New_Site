@@ -306,7 +306,6 @@ header .nav {
 
 #home a {
   margin: 0 auto;
-  width: 10%;
   text-align: center;
   background-color: #0397e2;
   display: block;
@@ -318,9 +317,9 @@ header .nav {
   border: none;
   color: white;
   cursor: pointer;
-  width: 120px;
-  height: 50px;
-  line-height: 50px;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
   margin-bottom: 20px;
   position: relative; }
   #home a span {

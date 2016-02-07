@@ -317,9 +317,9 @@ header .nav {
   border: none;
   color: white;
   cursor: pointer;
-  width: 70px;
-  height: 30px;
-  line-height: 30px;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
   margin-bottom: 20px;
   position: relative; }
   #home a span {
@@ -1052,7 +1052,7 @@ h1 {
     top: -10%; }
 
   #home h2 {
-    padding-top: 60px; }
+    padding-top: 30px; }
 
   #home p {
     padding: 10px; }
@@ -1132,6 +1132,9 @@ h1 {
   #home {
   width: 85%;
 }
+
+  #home:before {
+    left: 27.5%; }
 }
 
 

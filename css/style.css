@@ -1129,6 +1129,15 @@ h1 {
     width: 90px; }
 
   .ham_slide {
-    left: 85px; } }
+    left: 85px; } 
+  
+  #home {
+  width: 85%;
+}
+}
+
+
+
+
 
 /*# sourceMappingURL=style.css.map */

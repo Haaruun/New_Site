@@ -2,24 +2,6 @@
 
 //---------------
 $(document).ready(function() {
-	
-	
-    $('.com img').hover(function(){
-        // Hover over code
-        $('<p class="tooltip"></p>')
-        .text($(this).attr('alt'))
-        .appendTo('body')
-        .fadeIn('fast');
-}, function() {
-        // Hover out code
-      
-        $('.tooltip').remove();
-}).mousemove(function(e) {
-        var mousex = e.pageX + 40; //Get X coordinates
-        var mousey = e.pageY + 20; //Get Y coordinates
-        $('.tooltip')
-        .css({ top: mousey, left: mousex })
-});
      
     /* initialize shuffle plugin */
     var $grid = $('#grid');
@@ -146,10 +128,10 @@ $('a[href*=#]:not([href=#])').click(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top + 15
+          scrollTop: target.offset().top + 20
         }, 750);
         $('html,body').animate({
-          scrollTop: target.offset().top - 80
+          scrollTop: target.offset().top - 100
         }, 150);
         return false;
       }
@@ -162,7 +144,7 @@ $('a[href*=#]:not([href=#])').click(function() {
 
 
 var nav = $('header');
-var navHeight = nav.outerHeight() + 10;
+var navHeight = nav.outerHeight() + 20;
 
 $(window).scroll(function(){
     var scroll = $(this).scrollTop();
@@ -188,7 +170,7 @@ $(window).scroll(function(){
 
 
 var hom = $('#home');
-var homHeight = hom.outerHeight() - 400;
+var homHeight = hom.outerHeight() - 500;
 
 $(window).scroll(function(){
     var scroll = $(this).scrollTop();
@@ -202,7 +184,7 @@ $(window).scroll(function(){
 
 
 var his = $('.time_h1');
-var hisHeight = his.outerHeight() + 400;
+var hisHeight = his.outerHeight() + 600;
 
 $(window).scroll(function(){
     var scroll = $(this).scrollTop();
@@ -218,7 +200,7 @@ $(window).scroll(function(){
 
 
 var skill = $('.skills_h1');
-var skillHeight = skill.outerHeight() + 1400;
+var skillHeight = skill.outerHeight() + 1600;
 
 $(window).scroll(function(){
     var scroll = $(this).scrollTop();
@@ -234,25 +216,25 @@ $(window).scroll(function(){
 
 
 
-var pro = $('.h1_projects');
-var proHeight = pro.outerHeight() + 1900;
+// var pro = $('.h1_projects');
+// var proHeight = pro.outerHeight() + 1900;
 
-$(window).scroll(function(){
-    var scroll = $(this).scrollTop();
-    if(scroll >= proHeight){
-       $('.nav_three').removeClass('activated');
-       $('.nav_four').addClass('activated');
-    }else{
-         $('.nav_four').removeClass('activated');
+// $(window).scroll(function(){
+//     var scroll = $(this).scrollTop();
+//     if(scroll >= proHeight){
+//        $('.nav_three').removeClass('activated');
+//        $('.nav_four').addClass('activated');
+//     }else{
+//          $('.nav_four').removeClass('activated');
         
-    }
-});
+//     }
+// });
 
 
 
 
 var interst = $('.interests_h1');
-var interstHeight = interst.outerHeight() + 2300;
+var interstHeight = interst.outerHeight() + 2200;
 
 $(window).scroll(function(){
     var scroll = $(this).scrollTop();
@@ -293,7 +275,7 @@ $(window).scroll(function(){
 
 
 var peop = $('.people_h1');
-var peopHeight = peop.outerHeight() + 3300;
+var peopHeight = peop.outerHeight() + 3400;
 
 $(window).scroll(function(){
     var scroll = $(this).scrollTop();
@@ -309,7 +291,7 @@ $(window).scroll(function(){
 
 
 var con = $('.contact_h1');
-var conHeight = con.outerHeight() + 3700;
+var conHeight = con.outerHeight() + 4200;
 
 $(window).scroll(function(){
     var scroll = $(this).scrollTop();
@@ -436,6 +418,24 @@ $(function(){
       $('.head_three').toggleClass('headee_slide');
       
     });
+
+
+    $('.com img').hover(function(){
+        // Hover over code
+        $('<p class="tooltip"></p>')
+        .text($(this).attr('alt'))
+        .appendTo('body')
+        .fadeIn('fast');
+}, function() {
+        // Hover out code
+      
+        $('.tooltip').remove();
+}).mousemove(function(e) {
+        var mousex = e.pageX + 40; //Get X coordinates
+        var mousey = e.pageY + 20; //Get Y coordinates
+        $('.tooltip')
+        .css({ top: mousey, left: mousex })
+});
    
 });
 

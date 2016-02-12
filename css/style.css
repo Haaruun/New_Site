@@ -941,6 +941,9 @@ form {
     transition: 0.2s ease all;
     top: -700px; }
 
+header{
+  overflow: none;
+}
   header .head_three {
     z-index: 9999; }
 
@@ -1091,6 +1094,7 @@ h2 {
   margin: 0;
   max-width: 95%;
 }
+
 
 .interests{
     margin: 0;

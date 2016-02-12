@@ -192,7 +192,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 999999999;
   transition: 1s ease all !important;
   -ms-transition: 1s ease all;
   -moz-transition: 1s ease all;

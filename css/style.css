@@ -197,12 +197,12 @@ header {
   -ms-transition: 1s ease all;
   -moz-transition: 1s ease all;
   -webkit-transition: 1s ease all; 
-  overflow: hidden;
 }
 
 header .nav {
   position: relative;
   width: 100%;
+  overflow: hidden;
   background-color: #0397e2;
   height: 80px;
   line-height: 80px;

@@ -196,7 +196,9 @@ header {
   transition: 1s ease all !important;
   -ms-transition: 1s ease all;
   -moz-transition: 1s ease all;
-  -webkit-transition: 1s ease all; }
+  -webkit-transition: 1s ease all; 
+  overflow: hidden;
+}
 
 header .nav {
   position: relative;

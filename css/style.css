@@ -201,6 +201,7 @@ header {
 header .nav {
   position: relative;
   width: 100%;
+    overflow: hidden;
   background-color: #0397e2;
   height: 80px;
   line-height: 80px;
@@ -323,7 +324,7 @@ header .nav {
   margin-bottom: 20px;
   position: relative; }
   #home a span {
-    z-index: 999999;
+    z-index: 99;
     display: block;
     height: 100%;
     width: 100%;

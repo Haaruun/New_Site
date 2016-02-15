@@ -192,17 +192,15 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999999999;
+  z-index: 999;
   transition: 1s ease all !important;
   -ms-transition: 1s ease all;
   -moz-transition: 1s ease all;
-  -webkit-transition: 1s ease all; 
-}
+  -webkit-transition: 1s ease all; }
 
 header .nav {
   position: relative;
   width: 100%;
-  overflow: hidden;
   background-color: #0397e2;
   height: 80px;
   line-height: 80px;
@@ -915,15 +913,26 @@ form {
 
 
 
-@media screen and (max-width: 1300px) {
-/*.the_video {
-  height: 550px;
-  }*/
-// .the_video {
-//   height: 550px;
-//   }
+@media screen and (max-width: 1242px) {
+.person:before {
+  left: 38%;
+ }
+
+ .person_three:before {
+  left: 45% !important;
+ }
 }
 
+
+@media screen and (max-width: 829px) {
+.person:before {
+  left: 42.5%;
+ }
+
+ .person_three:before {
+  left: 42.5% !important;
+ }
+}
 
 
 @media screen and (max-width: 1100px) {
@@ -941,9 +950,6 @@ form {
     transition: 0.2s ease all;
     top: -700px; }
 
-header{
-  overflow: none;
-}
   header .head_three {
     z-index: 9999; }
 
@@ -1095,15 +1101,32 @@ h2 {
   max-width: 95%;
 }
 
-
 .interests{
     margin: 0;
   max-width: 95%;
 }
+
+
+.person:before {
+  left: 40.5%;
+ }
+
+ .person_three:before {
+  left: 40.5% !important;
+ }
   }
 @media screen and (max-width: 500px) {
 /*  .the_video {
     height: 215px; }*/
+
+
+.person:before {
+  left: 35.5%;
+ }
+
+ .person_three:before {
+  left: 35.5% !important;
+ }
 
   .hamburger {
     font-size: 22px !important; }
@@ -1166,4 +1189,5 @@ h2 {
   #home:before {
     left: 31.5%;
     margin-bottom: 20px; }
+    
 }

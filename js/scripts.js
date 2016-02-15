@@ -234,11 +234,12 @@ $(window).scroll(function(){
 
 
 var interst = $('.interests_h1');
-var interstHeight = interst.outerHeight() + 2200;
+var interstHeight = interst.outerHeight() + 2250;
 
 $(window).scroll(function(){
     var scroll = $(this).scrollTop();
     if(scroll >= interstHeight){
+       $('.nav_three').removeClass('activated');
        $('.nav_four').removeClass('activated');
        $('.nav_five').addClass('activated');
     }else{
@@ -253,7 +254,7 @@ $(window).scroll(function(){
 
 
 var vid = $('.video_h1');
-var vidHeight = vid.outerHeight() + 2800;
+var vidHeight = vid.outerHeight() + 2650;
 
 $(window).scroll(function(){
     var scroll = $(this).scrollTop();
@@ -275,7 +276,7 @@ $(window).scroll(function(){
 
 
 var peop = $('.people_h1');
-var peopHeight = peop.outerHeight() + 3400;
+var peopHeight = peop.outerHeight() + 3350;
 
 $(window).scroll(function(){
     var scroll = $(this).scrollTop();
@@ -291,7 +292,7 @@ $(window).scroll(function(){
 
 
 var con = $('.contact_h1');
-var conHeight = con.outerHeight() + 4200;
+var conHeight = con.outerHeight() + 4000;
 
 $(window).scroll(function(){
     var scroll = $(this).scrollTop();

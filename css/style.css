@@ -1017,15 +1017,23 @@ form textarea {
 
   #home:before {
     left: 42%; } }
-@media screen and (max-width: 700px) {
-  /*  .the_video {
-      height: 300px; }*/
+
+
+
+@media screen and (max-width: 850px) {    
   .person{
     -webkit-flex: 1 1 auto;
   }    
   .area{
     -webkit-flex: 1 1 auto;
   }
+}
+  
+  
+@media screen and (max-width: 700px) {
+  /*  .the_video {
+      height: 300px; }*/
+
   h1 {
     font-size: 47px;
     line-height: 47px;

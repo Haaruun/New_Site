@@ -664,6 +664,7 @@ header .nav {
 .area {
   position: relative;
   flex: 1;
+  -webkit-flex: 1 1 auto;
   min-width: 275px;
   background-color: #fff;
   margin: 10px;

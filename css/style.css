@@ -638,6 +638,7 @@ header .nav {
   margin-top: 20px; }
 
 .interests {
+  overflow-x: hidden !important;
   margin: 0 auto;
   max-width: 100%;
   width: 100%;
@@ -719,7 +720,10 @@ display: -webkit-box;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-flex-direction: row;
-  flex-direction: row; }
+  flex-direction: row; 
+  overflow-x: hidden !important;
+	
+}
 
 .person {
   height: auto;

@@ -1086,7 +1086,9 @@ form textarea {
   .person {
     min-width: 100%;
     margin: 0px;
-    margin-bottom: 25px; }
+    margin-bottom: 25px; 
+    margin-top: 10px
+  }
 
   h3 {
     font-size: 13px; }

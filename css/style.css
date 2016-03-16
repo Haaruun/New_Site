@@ -717,6 +717,7 @@ header .nav {
   height: auto;
   position: relative;
   flex: 1;
+  -webkit-flex: 1;
   background-color: #fff;
   padding: 10px;
   margin: 10px;
@@ -1019,6 +1020,12 @@ form textarea {
 @media screen and (max-width: 700px) {
   /*  .the_video {
       height: 300px; }*/
+  .person{
+    -webkit-flex: 1 1 auto;
+  }    
+  .area{
+    -webkit-flex: 1 1 auto;
+  }
   h1 {
     font-size: 47px;
     line-height: 47px;

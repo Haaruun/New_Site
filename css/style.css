@@ -640,6 +640,7 @@ header .nav {
 .interests {
   margin: 0 auto;
   max-width: 100%;
+  width: 100%;
   height: auto;
 display: -webkit-box;
 	display: -moz-box;
@@ -669,9 +670,9 @@ display: -webkit-box;
 
 .area {
   position: relative;
-  flex: 1 0 auto;
-  -webkit-flex: 1 0 auto;
-  min-width: 275px;
+  flex: 1;
+  -webkit-flex: 1;
+  width: 30%;
   background-color: #fff;
   margin: 10px;
   height: auto;

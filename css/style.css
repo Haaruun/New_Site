@@ -1027,14 +1027,14 @@ form textarea {
 
 
 
-/*@media screen and (max-width: 1050px) {    */
-/*  .person{*/
-/*    -webkit-flex: 1 1 auto;*/
-/*  }    */
-/*  .area{*/
-/*    -webkit-flex: 1 1 auto;*/
-/*  }*/
-/*}*/
+@media screen and (max-width: 1050px) {    
+  .person{
+    -webkit-flex: 1 1 auto;
+  }    
+  .area{
+    -webkit-flex: 1 1 auto;
+  }
+}
   
   
 @media screen and (max-width: 700px) {
@@ -1076,7 +1076,9 @@ form textarea {
     line-height: 50px; }
 
   .area {
-    min-width: 100%; }
+    min-width: 100%; 
+  	
+  }
 
   .person {
     min-width: 100%;
@@ -1136,9 +1138,9 @@ form textarea {
     margin: 0;
     max-width: 95%; }
 
-  .interests {
-    margin: 0;
-    max-width: 95%; }
+  /*.interests {*/
+  /*  margin: 0;*/
+  /*  max-width: 95%; }*/
 
   .person:before {
     left: 40.5%; }

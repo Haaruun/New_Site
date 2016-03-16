@@ -669,8 +669,8 @@ display: -webkit-box;
 
 .area {
   position: relative;
-  flex: 1;
-  -webkit-flex: 1;
+  flex: 1 0 auto;
+  -webkit-flex: 1 0 auto;
   min-width: 275px;
   background-color: #fff;
   margin: 10px;

@@ -269,8 +269,6 @@ header .nav {
   position: relative;
   margin-top: 200px;
   transition: 1s ease all !important;
-  overflow: hidden !important;
-  
 }
 
 #home {

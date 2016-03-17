@@ -269,6 +269,7 @@ header .nav {
   position: relative;
   margin-top: 200px;
   transition: 1s ease all !important;
+  overflow-x: hidden !important;
 }
 
 #home {
@@ -638,7 +639,6 @@ header .nav {
   margin-top: 20px; }
 
 .interests {
-  overflow-x: hidden !important;
   margin: 0 auto;
   max-width: 100%;
   width: 100%;
@@ -721,8 +721,6 @@ display: -webkit-box;
   flex-wrap: wrap;
   -webkit-flex-direction: row;
   flex-direction: row; 
-  overflow-x: hidden !important;
-	
 }
 
 .person {

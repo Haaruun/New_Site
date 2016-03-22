@@ -2,11 +2,7 @@
 .skill {
   width: 80%;
   margin: 0 auto; }
-  
-  .con_button{
-  	color: white !important;
-  	font-size: 20px;
-  }
+ 
 
 .back_drop {
   height: 100vh;
@@ -132,7 +128,10 @@ main {
 .con_button {
   float: left;
   text-align: center;
-  width: 5%; }
+  width: 9%; 
+color: white !important;
+  	font-size: 20px;	
+}
 
 .con_seek_vol {
   float: left;

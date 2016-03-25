@@ -418,9 +418,11 @@ $(window).scroll(function(){
 
 
 $(function(){
- if ($.browser.mozilla) {
-   $('.wrapper').css('overflow-x','initial !important');
-}
+ if($.browser.chrome) {
+   $('.wrapper').css('overflow-x','hidden');
+} else if ($.browser.mozilla) {
+   $('.wrapper').css('overflow-x','initial');
+} 
 
     $('.hamburger').click(function(){
       $('.head_three').toggleClass('headee_slide');

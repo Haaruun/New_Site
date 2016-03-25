@@ -414,18 +414,18 @@ $(window).scroll(function(){
 
 //---------------
 
-$(document).ready ( 
- function() {
-  if ( $.browser.mozilla == true && $.browser.version < '1.9' ) {
-   $('.wrapper').css('overflow-x','initial !important');
-  }
- }
-);
 
 
 
 $(function(){
-	
+	if($.browser.chrome) {
+   alert("1");
+} else if ($.browser.mozilla) {
+   alert("2");
+} else if ($.browser.msie) {
+   alert("3");
+}
+
     $('.hamburger').click(function(){
       $('.head_three').toggleClass('headee_slide');
       

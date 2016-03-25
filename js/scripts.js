@@ -413,6 +413,17 @@ $(window).scroll(function(){
 // });
 
 //---------------
+
+$(document).ready ( 
+ function() {
+  if ( $.browser.mozilla == true && $.browser.version < '1.9' ) {
+   $('.wrapper').css('overflow-x','initial !important');
+  }
+ }
+);
+
+
+
 $(function(){
 	
     $('.hamburger').click(function(){

@@ -418,12 +418,8 @@ $(window).scroll(function(){
 
 
 $(function(){
-	if($.browser.chrome) {
-   alert("1");
-} else if ($.browser.mozilla) {
-   alert("2");
-} else if ($.browser.msie) {
-   alert("3");
+ if ($.browser.mozilla) {
+   $('.wrapper').css('overflow-x','initial !important');
 }
 
     $('.hamburger').click(function(){

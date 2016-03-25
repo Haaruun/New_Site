@@ -422,6 +422,8 @@ $(function(){
    $('.wrapper').css('overflow-x','hidden');
 } else if ($.browser.mozilla) {
    $('.wrapper').css('overflow-x','initial');
+}else if ($.browser.safari) {
+   $('.wrapper').css('overflow-x','hidden');
 } 
 
     $('.hamburger').click(function(){

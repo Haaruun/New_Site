@@ -789,7 +789,7 @@ display: -webkit-box;
   width: 80px;
   top: -5%;
   left: 36%;
-  background-color: #0397e2;
+  background-color: #e67e22;
   border-radius: 50%;
   color: white;
   line-height: 80px;
@@ -812,7 +812,7 @@ form {
 form .submit {
   margin: 0 auto;
   text-align: center;
-  background-color: #0397e2;
+  background-color: #d35400;
   display: block;
   position: relative;
   text-decoration: none;
@@ -917,7 +917,7 @@ form textarea {
 
 .social .soc a i {
   line-height: 75px;
-  color: #0397e2 !important;
+  color: #e67e22 !important;
   transition: 0.3s ease all;
   -webkit-transition: 0.3s ease all;
   -moz-transition: 0.3s ease all;

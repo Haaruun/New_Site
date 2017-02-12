@@ -156,7 +156,7 @@ color: white !important;
 
 header .head_one {
   width: 100%;
-  background-color: #1e88e5;
+  background-color: #d35400;
   height: 60px;
   line-height: 60px;
   z-index: 9999; }
@@ -216,7 +216,7 @@ header .nav {
   position: relative;
   width: 100%;
   overflow: hidden;
-  background-color: #0397e2;
+  background-color: #e67e22;
   height: 80px;
   line-height: 80px;
   opacity: 1;

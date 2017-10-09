@@ -98,7 +98,7 @@ main {
   position: absolute;
   width: 100%;
   height: 50px;
-  background: #d35400;
+  background: #BC3737;
   bottom: -42.5px;
   left: 0;
   color: white;
@@ -156,7 +156,7 @@ color: white !important;
 
 header .head_one {
   width: 100%;
-  background-color: #d35400;
+  background-color: #BC3737;
   height: 60px;
   line-height: 60px;
   z-index: 9999; }
@@ -332,7 +332,7 @@ header .nav {
 #home a {
   margin: 0 auto;
   text-align: center;
-  background-color: #d35400;
+  background-color: #BC3737;
   display: block;
   position: relative;
   text-decoration: none;
@@ -421,7 +421,7 @@ header .nav {
 .timeline_contain .timeline_content_block .ball {
   height: 20px;
   width: 20px;
-  background-color: #d35400;
+  background-color: #BC3737;
   position: absolute;
   top: 5%;
   border-radius: 50%;
@@ -445,7 +445,7 @@ header .nav {
   width: 100%;
   height: 470px;
   margin: 0 auto;
-  background-color: #d35400;
+  background-color: #BC3737;
   position: relative;
   text-align: center;
   color: white;
@@ -812,7 +812,7 @@ form {
 form .submit {
   margin: 0 auto;
   text-align: center;
-  background-color: #d35400;
+  background-color: #BC3737;
   display: block;
   position: relative;
   text-decoration: none;
@@ -968,7 +968,7 @@ form textarea {
 .tooltip {
   display: none;
   position: absolute;
-  background-color: #d35400;
+  background-color: #BC3737;
   border-radius: 5px;
   padding: 7.5px;
   color: white;

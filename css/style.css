@@ -177,10 +177,11 @@ body{
 }
 
 .main-text-center > h1{
-  font-size: 2em;
+  font-size: 1.75em;
   width: 65%;
   margin: 0 auto;
   font-weight: 750;
+  margin-bottom: 12px;
 }
 
 .main-text-center > h4{
@@ -583,7 +584,7 @@ background: rgba(0, 0, 0, 0);
 @media screen and (max-width: 1350px) {
  
   .main-text-center > h1 {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
   
 
@@ -652,7 +653,7 @@ background: rgba(0, 0, 0, 0);
   }
  
   .main-text-center > h1 {
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-align: center;
   }
   
